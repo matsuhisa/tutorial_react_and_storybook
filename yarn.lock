@@ -1207,7 +1207,7 @@
     react-inspector "^4.0.0"
     uuid "^3.3.2"
 
-"@storybook/addon-links@^5.3.18":
+"@storybook/addon-links@*", "@storybook/addon-links@^5.3.18":
   version "5.3.18"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-5.3.18.tgz#6b4aec83e158c000221bfe1f43e4a473f0727193"
   dependencies:
@@ -1844,6 +1844,12 @@
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-5.2.1.tgz#1a6820d76d24e3af7d3cb2828b7b4ae4281e4093"
   dependencies:
     "@storybook/addon-actions" "*"
+
+"@types/storybook__addon-links@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-links/-/storybook__addon-links-5.2.1.tgz#10a731c1a09dff4a1f14e3f867a57b3ab9364c15"
+  dependencies:
+    "@storybook/addon-links" "*"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.5"
