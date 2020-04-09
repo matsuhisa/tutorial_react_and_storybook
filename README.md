@@ -2,24 +2,16 @@
 
 ## 手順
 
-### 
+### create-react-app + TypeSCript で作る
 
 ```
 npx create-react-app ./ --typescript
 ```
 
-### 
+### @storybook/cli を実行
+
+https://storybook.js.org/docs/guides/guide-react/
 
 ```
-yarn add -D @storybook/preset-create-react-app
-```
-
-### 
-
-`./.storybook/main.js`
-
-```javascript:./.storybook/main.js
-module.exports = {
-  addons: ['@storybook/preset-create-react-app'],
-};
+npx -p @storybook/cli sb init --type react_scripts
 ```
